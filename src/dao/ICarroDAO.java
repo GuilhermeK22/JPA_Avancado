@@ -1,2 +1,7 @@
-package dao;public interface ICarroDAO {
+package dao;
+
+import domain.Carro;
+
+public interface ICarroDAO {
+    public Carro cadastrar (Carro carro);
 }
